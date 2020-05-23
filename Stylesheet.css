@@ -55,6 +55,9 @@ table {
 *{
 	box-sizing: border-box;
 }
+body{
+	background-color: #166273;
+}
 .caja-titulo{
 	background-color: #0c2c40;
 	width: 95%;
@@ -76,13 +79,13 @@ table {
 }
 .caja-corta-izq{
 	background-color: #0c2c40;
-	width: 49%;
+	width: 49.5%;
 	height: 250px;
 	float: left;
 }
 .caja-corta-der{
 	background-color: #0c2c40;
-	width: 49%;
+	width: 49.5%;
 	height: 250px;
 	float: right;
 }
