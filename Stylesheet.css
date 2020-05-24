@@ -51,21 +51,53 @@ table {
 }
 
 /* ----------- Reset CSS end ----------------*/
+/* Color Theme Swatches in Hex */
+.Interaction-1-hex { color: #0C2C40; }
+.Interaction-2-hex { color: #166273; }
+.Interaction-3-hex { color: #B4D2D9; }
+.Interaction-4-hex { color: #98A668; }
+.Interaction-5-hex { color: #CFD989; }
+
+/* Color Theme Swatches in RGBA */
+.Interaction-1-rgba { color: rgba(12, 43, 63, 1); }
+.Interaction-2-rgba { color: rgba(21, 97, 114, 1); }
+.Interaction-3-rgba { color: rgba(179, 209, 216, 1); }
+.Interaction-4-rgba { color: rgba(152, 165, 104, 1); }
+.Interaction-5-rgba { color: rgba(207, 216, 136, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Interaction-1-hsla { color: hsla(202, 68, 14, 1); }
+.Interaction-2-hsla { color: hsla(191, 68, 26, 1); }
+.Interaction-3-hsla { color: hsla(191, 32, 77, 1); }
+.Interaction-4-hsla { color: hsla(73, 25, 52, 1); }
+.Interaction-5-hsla { color: hsla(67, 51, 69, 1); }
 /*----contenedores de caja------*/
 *{
 	box-sizing: border-box;
 }
 body{
 	background-color: #166273;
+	font-family: sans-serif;
+	color: #B4D2D9;
+	/*font-family: 'Roboto','Open Sans', sans-serif;*/
+	font-family: 'Balsamiq Sans', cursive;
 }
 .caja-titulo{
 	background-color: #0c2c40;
 	width: 95%;
-	height: 100px;
+	height: 60px;
 	margin: 15px auto;
 	padding: 10px;
 }
-.caja-principal{
+
+.caja-img{
+	background-image: url(Imgs/copenhagen.jpg);
+	width: 95%;
+	height: 250px;
+	margin: 15px auto;
+	padding: 10px;
+}
+	.caja-principal{
 	background-color: #0c2c40;
 	width: 95%;
 	height: 250px;
@@ -88,4 +120,21 @@ body{
 	width: 49.5%;
 	height: 250px;
 	float: right;
+}
+ul{
+	position: relative;
+	padding: auto;
+	text-align: right;
+	margin: 10px auto;
+}
+li{
+	display: inline-block;
+	position: relative;
+}
+a{
+	color: #B4D2D9;
+	text-decoration: none;
+}
+a:hover{
+	color: #CFD989;
 }
