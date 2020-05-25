@@ -52,31 +52,33 @@ table {
 
 /* ----------- Reset CSS end ----------------*/
 /* Color Theme Swatches in Hex */
-.Interaction-1-hex { color: #0C2C40; }
-.Interaction-2-hex { color: #166273; }
-.Interaction-3-hex { color: #B4D2D9; }
-.Interaction-4-hex { color: #98A668; }
-.Interaction-5-hex { color: #CFD989; }
+.color-theme_Copenhagen-1-hex { color: #F21B2D; }
+.color-theme_Copenhagen-2-hex { color: #934EA6; }
+.color-theme_Copenhagen-3-hex { color: #DFF2ED; }
+.color-theme_Copenhagen-4-hex { color: #F2D750; }
+.color-theme_Copenhagen-5-hex { color: #F2762E; }
 
 /* Color Theme Swatches in RGBA */
-.Interaction-1-rgba { color: rgba(12, 43, 63, 1); }
-.Interaction-2-rgba { color: rgba(21, 97, 114, 1); }
-.Interaction-3-rgba { color: rgba(179, 209, 216, 1); }
-.Interaction-4-rgba { color: rgba(152, 165, 104, 1); }
-.Interaction-5-rgba { color: rgba(207, 216, 136, 1); }
+.color-theme_Copenhagen-1-rgba { color: rgba(242, 27, 45, 1); }
+.color-theme_Copenhagen-2-rgba { color: rgba(147, 78, 166, 1); }
+.color-theme_Copenhagen-3-rgba { color: rgba(223, 242, 237, 1); }
+.color-theme_Copenhagen-4-rgba { color: rgba(242, 215, 80, 1); }
+.color-theme_Copenhagen-5-rgba { color: rgba(242, 118, 46, 1); }
 
 /* Color Theme Swatches in HSLA */
-.Interaction-1-hsla { color: hsla(202, 68, 14, 1); }
-.Interaction-2-hsla { color: hsla(191, 68, 26, 1); }
-.Interaction-3-hsla { color: hsla(191, 32, 77, 1); }
-.Interaction-4-hsla { color: hsla(73, 25, 52, 1); }
-.Interaction-5-hsla { color: hsla(67, 51, 69, 1); }
-/*----contenedores de caja------*/
+.color-theme_Copenhagen-1-hsla { color: hsla(354, 89, 52, 1); }
+.color-theme_Copenhagen-2-hsla { color: hsla(287, 36, 47, 1); }
+.color-theme_Copenhagen-3-hsla { color: hsla(164, 42, 91, 1); }
+.color-theme_Copenhagen-4-hsla { color: hsla(50, 86, 63, 1); }
+.color-theme_Copenhagen-5-hsla { color: hsla(22, 88, 56, 1); }
 *{
 	box-sizing: border-box;
 }
+img{
+	max-width: 100%;
+}
 body{
-	background-color: #166273;
+	background-color: #DFF2ED;
 	font-family: sans-serif;
 	color: #B4D2D9;
 	/*font-family: 'Roboto','Open Sans', sans-serif;*/
@@ -92,6 +94,8 @@ body{
 
 .caja-img{
 	background-image: url(imgs/copenhagen.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 	width: 95%;
 	height: 250px;
 	margin: 15px auto;
